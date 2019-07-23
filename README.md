@@ -26,26 +26,17 @@
 #### 3、API介绍：
 
 > setTitle(String title,int color,int fontSize)
+>   - title：键盘显示的标题
+>   - color：标题颜色
+>   - fontSize：标题字号
 
->           - title：键盘显示的标题
-
->           - color：标题颜色
-
->           - fontSize：标题字号
-
-       setKeyboardListener(KeyboardListener listener)
-
-            - show()：键盘显示时会回调的方法
-
-            - hide()：隐藏回调
-
-            - input(String s):键盘输入单个字符时的回调，已自动与et绑定
-
-            - del();点击删除键的回调，已自动与et绑定
-
-            - inputComplete(String str):键盘输入完成的回调，可得到六位数的字符串
-
-            - done();点击输入完成键的回调，一般直接调下一步按钮方法
+> setKeyboardListener(KeyboardListener listener)
+>   - show()：键盘显示时会回调的方法
+>   - hide()：隐藏回调
+>   - input(String s):键盘输入单个字符时的回调，已自动与et绑定
+>   - del();点击删除键的回调，已自动与et绑定
+>   - inputComplete(String str):键盘输入完成的回调，可得到六位数的字符串
+>   - done();点击输入完成键的回调，一般直接调下一步按钮方法
 
        new KeyboardListener(SecurityKeyboard keyboard,EditText edit)
 
