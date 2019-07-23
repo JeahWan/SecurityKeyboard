@@ -1,7 +1,6 @@
 ### MK-Keyboard - android 自定义键盘
 
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-
 [![Download](https://api.bintray.com/packages/jeahwan/maven/MK-Keyboard/images/download.svg) ](https://bintray.com/jeahwan/maven/MK-Keyboard/_latestVersion)
 
 ## 引用：
