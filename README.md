@@ -1,6 +1,14 @@
-#### MK-Keyboard
+### MK-Keyboard - android 自定义键盘
 
-    android 自定义键盘
+[![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+[![Download](https://api.bintray.com/packages/jeahwan/maven/MK-Keyboard/images/download.svg) ](https://bintray.com/jeahwan/maven/MK-Keyboard/_latestVersion)
+
+## 引用：
+
+> implementation 'com.jeahwan.keyboard:MK-Keyboard:0.0.1'
+
+## 使用步骤：
 
     0、初始化键盘样式（方便同产品内不同模块有不同键盘样式的需求，或者不同项目引用同一个库）
 

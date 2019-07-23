@@ -1,0 +1,10 @@
+<resources>
+    <!--  键盘用到的 -->
+    <style name="keyboard_anim">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>
+        <!-- 指定显示的动画xml -->
+
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+</resources>
