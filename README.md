@@ -27,11 +27,11 @@
 
 > setTitle(String title,int color,int fontSize)
 
-            - title：键盘显示的标题
+>           - title：键盘显示的标题
 
-            - color：标题颜色
+>           - color：标题颜色
 
-            - fontSize：标题字号
+>           - fontSize：标题字号
 
        setKeyboardListener(KeyboardListener listener)
 
@@ -136,7 +136,7 @@
        复杂的UI变动，可以在SecurityKeyboard类中配置新的STYLE枚举，并做相关的UI处理
 
 
-混淆：
+#### 混淆：
 
 ```
 ####### RxJava RxAndroid ######
