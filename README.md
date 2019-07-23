@@ -39,8 +39,8 @@
 >   - done();点击输入完成键的回调，一般直接调下一步按钮方法
 
 > new KeyboardListener(SecurityKeyboard keyboard,EditText edit)
+>   - 传入参数用于自动绑定keyboard与edittext的关联关系（EditText禁止弹出原生键盘、点击弹出小白键盘等会自动配置好），如扩展键盘不需要et的情况 需传入页面任一view用于键盘监听返回键
 
-            - 传入参数用于自动绑定keyboard与edittext的关联关系（EditText禁止弹出原生键盘、点击弹出小白键盘等会自动配置好），如扩展键盘不需要et的情况 需传入页面任一view用于键盘监听返回键
 
        show(int millsenconds)
 
