@@ -9,25 +9,23 @@
 
 ## 使用步骤：
 
-    0、初始化键盘样式（方便同产品内不同模块有不同键盘样式的需求，或者不同项目引用同一个库）
+# 0、初始化键盘样式（方便同产品内不同模块有不同键盘样式的需求，或者不同项目引用同一个库）
 
-       SecurityKeyboard.setKeyboardStyle(SecurityKeyboard.STYLE);
+> SecurityKeyboard.setKeyboardStyle(SecurityKeyboard.STYLE);
 
-    1、创建一个键盘
+# 1、创建一个键盘
 
-       SecurityKeyboard keyboard = new SecurityKeyboardBuilder(Context context).build();
+> SecurityKeyboard keyboard = new SecurityKeyboardBuilder(Context context).build();
 
-    2、调用setType方法指定加载的键盘类型
+# 2、调用setType方法指定加载的键盘类型
 
-       keyboard.setType(SecurityKeyboard.Type type);
+> keyboard.setType(SecurityKeyboard.Type type);
+>   - Standard：标准键盘类型（纯输入用，需绑定et）
+>   - Extend：扩展键盘类型（含数字框，输入验证码、密码用）
 
-            - Standard：标准键盘类型（纯输入用，需绑定et）
+# 3、API介绍：
 
-            - Extend：扩展键盘类型（含数字框，输入验证码、密码用）
-
-    3、API介绍：
-
-       setTitle(String title,int color,int fontSize)
+> setTitle(String title,int color,int fontSize)
 
             - title：键盘显示的标题
 
